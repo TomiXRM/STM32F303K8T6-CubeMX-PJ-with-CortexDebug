@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools-extension-pack",
+    "cschlosser.doxdocgen",
+    "ms-vscode.makefile-tools",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "bierner.markdown-mermaid",
+    "marus25.cortex-debug",
+    "mcu-debug.memory-view"
+  ]
+}

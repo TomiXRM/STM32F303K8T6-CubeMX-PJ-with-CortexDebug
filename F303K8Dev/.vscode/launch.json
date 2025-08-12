@@ -17,15 +17,13 @@
       "liveWatch": {
         "enabled": true,
         "samplesPerSecond": 4
-      }
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "./Core/Src",
-      "program": "./Core/Src/build/Debug/outDebug"
+      },
+      "overrideLaunchCommands": [
+        "interpreter-exec console \"monitor reset halt\"",
+        //'target-download',
+        //'interpreter-exec console \"monitor reset halt\"',
+        "-enable-pretty-printing"
+      ],
     }
   ]
 }
